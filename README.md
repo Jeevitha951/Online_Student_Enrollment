@@ -10,24 +10,24 @@ A web-based system for managing student enrollments at universities using Node.j
 - Search for Courses
 
 ## Installation:
-1.npm init -y
-2.npm install express mongoose body-parser dotenv
+1. npm init -y
+2. npm install express mongoose body-parser dotenv
 
-# Run the code:
+## Run the code:
 node server.js
 
-### Usage:
+## Usage:
 Use Postman to interact with the following endpoints:
- /students/add: Add a Student
- /courses/add: Add a Course
- /courses/enroll: Enroll students in courses.
- /courses/all: View All Courses
- /search?query=Data:Search Courses
- /students/all:View All Students
+ 1. /students/add: Add a Student
+ 2. /courses/add: Add a Course
+ 3. /courses/enroll: Enroll students in courses.
+ 4. /courses/all: View All Courses
+ 5. /search?query=Data:Search Courses
+ 6. /students/all:View All Students
 
 ## Technologies Used:
-1.Node.js
-2.Express.js
-3.MongoDB
+1. Node.js
+2. Express.js
+3. MongoDB
 4.Postman (for API testing)
 
