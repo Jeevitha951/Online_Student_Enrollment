@@ -6,7 +6,7 @@ const courseRoutes = require('./routes/courses');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://Jeevitha:jeevitha@cluster0.0rkh96c.mongodb.net/student-enrollment?retryWrites=true&w=majority';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/student-enrollment';
 
 app.use(bodyParser.json());
 
