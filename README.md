@@ -16,7 +16,7 @@ A web-based system for managing student enrollments at universities using Node.j
 # Run the code:
 node server.js
 
-## Usage:
+### Usage:
 Use Postman to interact with the following endpoints:
  /students/add: Add a Student
  /courses/add: Add a Course
